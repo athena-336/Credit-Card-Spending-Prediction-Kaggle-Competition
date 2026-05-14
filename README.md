@@ -22,15 +22,7 @@ annual income, and transaction history.
 | Random Forest | 275.11 |
 
 ## Final Pipeline
-IQR Outlier Removal
-↓
-One-Hot Encoding
-↓
-RobustScaler
-↓
-PolynomialFeatures (degree=2)
-↓
-ElasticNet + 5-fold GridSearchCV (18 combinations)
+IQR Outlier Removal -> One-Hot Encoding -> RobustScaler -> PolynomialFeatures (degree=2) -> ElasticNet + 5-fold GridSearchCV (18 combinations)
 ## Why ElasticNet Won
 
 - Polynomial degree=2 captured mild non-linear relationships
