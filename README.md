@@ -18,7 +18,7 @@ annual income, and transaction history.
 | ElasticNet (final) | **248.75** |
 | Gradient Boosting | 252.90 |
 | XGBoost | 253.75 |
-| Linear Regression | — |
+| Linear Regression | 309.13 |
 | Random Forest | 275.11 |
 
 ## Final Pipeline
